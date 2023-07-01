@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --background-color: #212121;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.menu button {
+  color: white;
+  background-color: #212121;
+  border-radius: 25px;
+  margin-left: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px 32px;
+  border-color: white;
+}
+
+
+
+.navs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 20px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.nav-link span {
+  margin-left: 15px;
+}
+
+
+main {
+  margin-left: 250px;
+}
+#videos-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  
+}
+
+#comments {
+  color: white;
+}
+
